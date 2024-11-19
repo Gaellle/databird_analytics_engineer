@@ -1,6 +1,7 @@
 {{ config(
  materialized='table'
 ) }}
+
 select
  cast(id as string) as id,
  cast(host_id as integer) as host_id,
